@@ -45,7 +45,6 @@ inputBtn.addEventListener('click', () => {
     }
 });
 
-
 deleteBtn.addEventListener('click', () => {
     if (confirm("Do you want to delete your URL list?")) {
         remove(referenceInDB)
