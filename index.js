@@ -11,7 +11,6 @@ const firebaseConfig = {
     appId: import.meta.env.VITE_FIREBASE_APP_ID
 };
 
-
 const app = initializeApp(firebaseConfig);
 const database = getDatabase(app);
 const referenceInDB = ref(database, 'leads')
